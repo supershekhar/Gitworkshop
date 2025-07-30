@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day-2 Github Workshop</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sample Form</title>
 </head>
 <body>
-    <h1>Git Workshop</h1>
-    <ul>
-        <li>Track commit hisory</li>
-        <li>Git fetch</li>
-        <li>Git pull</li>
-        <li>Merge Conflict</li>
-        <li>Collaboration</li>
-        <li>Track commit hisory</li>
-    </ul>
+  <h2>Contact Us</h2>
+  <form action="/submit" method="POST">
+    <label for="name">Name:</label><br />
+    <input type="text" id="name" name="name" required /><br /><br />
+
+    <label for="email">Email:</label><br />
+    <input type="email" id="email" name="email" required /><br /><br />
+
+    <label for="message">Message:</label><br />
+    <textarea id="message" name="message" rows="4" cols="30" required></textarea><br /><br />
+
+    <input type="submit" value="Send" />
+  </form>
 </body>
 </html>
